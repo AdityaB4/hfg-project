@@ -1,5 +1,5 @@
 # Bridge
-[Bridge header: purple gradient background with the light focussing on bridge and a phone with the text "help is one click away!"](./header.jpeg)
+[Bridge header: purple gradient background with the light focussing on bridge and a phone with the text "help is one click away!"](https://raw.githubusercontent.com/AdityaB4/hfg-project/main/header.jpeg)
 ## Goal
 With **Bridge** we aim to bridge the gap between help and those in need.
 
