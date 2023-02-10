@@ -1,0 +1,3 @@
+# ignore all firestore config files
+# ignoring json is enough for the purposes of this project
+*.json
