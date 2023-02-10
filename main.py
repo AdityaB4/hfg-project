@@ -8,6 +8,10 @@ dispatcher = updater.dispatcher
 def start(update, context):
     update.message.reply_text("Hello, this is InsertName bot, here to connect
     u with helpful volunteers.")
+    update.message.reply_text("Please state ur disabilities:")
+    disability = update.message.text
+    update.message.reply_text("Please wait while we get in contact with one of
+    our volunteers")
 
 def help(update, context):
     update.message.reply_text("""
