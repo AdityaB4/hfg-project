@@ -1,4 +1,5 @@
 # Bridge
+[Bridge header: purple gradient background with the light focussing on bridge and a phone with the text "help is one click away!"](./header.jpeg)
 ## Goal
 With **Bridge** we aim to bridge the gap between help and those in need.
 
