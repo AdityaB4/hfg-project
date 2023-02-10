@@ -45,7 +45,7 @@ def update_user(tele_id, name= None, age= None, location= None, focus= None):
     doc_ref = db.collection(u'users').document(u'tele_id')
     doc = doc_ref.get().to_dict()
     doc_ref.set({
-        u'name': name or doc['name],
+        u'name': name or doc['name'],
         u'tele_id': tele_id,
         u'age': age or doc['age'],
         u'location': location or doc['location'],
@@ -57,7 +57,7 @@ def update_volunteer(tele_id, name= None, age= None, location= None, focus= None
     doc_ref = db.collection(u'volunteeers').document(u'tele_id')
     doc = doc_ref.get().to_dict()
     doc_ref.set({
-        u'name': name or doc['name],
+        u'name': name or doc['name'],
         u'tele_id': tele_id,
         u'age': age or doc['age'],
         u'location': location or doc['location'],
