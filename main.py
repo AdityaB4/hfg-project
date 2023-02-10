@@ -6,9 +6,9 @@ volunteers = temp.get_volunteers()
 
 #insert valid token (have not verified with botfather yet)
 with open('token.txt', 'r') as f:
-    Token = str(f.read());
-    print(Token)
-updater = Updater(Token, use_context = True)
+    TOKEN = str(f.read());
+    print(TOKEN)
+updater = Updater(TOKEN, use_context = True)
 dispatcher = updater.dispatcher
 def start(update, context):
     update.message.reply_text('''Hello, this is InsertName bot, here to connect
