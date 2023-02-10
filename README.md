@@ -11,5 +11,5 @@ We built the first iteration of **Bridge** using Python with the Telegram API fo
 
 ## Find more information by clicking the links below
 ##### [Bridge Pitch Deck](https://docs.google.com/presentation/d/107xip4P_l4sM-WGPaFgapMow7FoeQhwocL4ZdVeiVMM/edit?usp=sharing)
-##### [Bridge Demo Video](gg.gg)
+##### [Bridge Demo Video](https://docs.google.com/presentation/d/1thVRgs7utABOCIAGTYO4KsQ4XFnHzopL-RvoSACu9vg/edit?usp=sharing)
 #### Bridge is accesible via the Telegram @bridge_hfg_bot
