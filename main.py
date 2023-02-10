@@ -4,9 +4,10 @@ import temp
 
 volunteers = temp.get_volunteers()
 
-
 #insert valid token (have not verified with botfather yet)
-Token = ""
+with open('token.txt', 'r') as f:
+    Token = str(f.read());
+    print(Token)
 updater = Updater(Token, use_context = True)
 dispatcher = updater.dispatcher
 def start(update, context):
