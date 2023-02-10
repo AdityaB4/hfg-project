@@ -16,5 +16,5 @@ def get_volunteers():
 
 def match_volunteers(volunteers, location, focus):
     result = volunteers # not deep copy
-    result = filter(lambda x: x['focus'] == focus && x['location'] == location)
+    result = filter(lambda x: x['focus'] == focus and x['location'] == location)
     return result

@@ -1,7 +1,8 @@
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler
+import temp
 
-volunteers = get_volunteers()
+volunteers = temp.get_volunteers()
 
 
 #insert valid token (have not verified with botfather yet)
