@@ -1,13 +1,11 @@
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler
-import temp
+import authtoken
+import backend
 
-volunteers = temp.get_volunteers()
 
 #insert valid token (have not verified with botfather yet)
-with open('token.txt', 'r') as f:
-    TOKEN = str(f.read());
-    print(TOKEN)
+TOKEN = authtoken.accessToken()
 updater = Updater(TOKEN, use_context = True)
 dispatcher = updater.dispatcher
 def start(update, context):
